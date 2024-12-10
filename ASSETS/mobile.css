@@ -1,0 +1,54 @@
+@media screen {
+    #avatar{
+        margin: 10px;
+        height: 150px;
+        border: 1px solid black;
+    }
+
+    .html{
+        gap: 20px;
+        display: flex;
+        width: 90%;
+        align-items: center;
+    }
+
+    .MoneyDinDin{
+        color: white;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .abilits{
+        height: 310px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        padding: 1rem;
+    }
+
+    #descrition{
+        font-size: 15px;
+    }
+
+    header{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid;
+        justify-content: space-between;
+        background-color: rgb(139, 139, 204);
+    }
+
+    #imgSITE img{
+        float: left;
+        height:39px;
+        border-left: 1px solid;
+    }
+
+    footer p{
+        margin: 10px;
+    }
+}

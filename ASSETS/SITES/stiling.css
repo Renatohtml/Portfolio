@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/262ece3f-c877-4971-96fc-f736847d70be/d95gy46-9141f3b6-337a-4ce0-964e-ba83e52e279a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2MmVjZTNmLWM4NzctNDk3MS05NmZjLWY3MzY4NDdkNzBiZVwvZDk1Z3k0Ni05MTQxZjNiNi0zMzdhLTRjZTAtOTY0ZS1iYTgzZTUyZTI3OWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qi1rZ0XY_XWzqrbSzE3yxSZRK9F0u4HBl0UiiAO1b7Q);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 500px;
+    background-color: aqua;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button:hover{
+    animation-name: animacao;
+    animation-duration: 0.5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animacao{
+    0%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1,2);
+    }
+}
